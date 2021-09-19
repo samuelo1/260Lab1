@@ -1,98 +1,67 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.bg-light {
+    background-color: rgb(165, 227, 229) !important;
 }
 
-body {
-    background-color: rgba(221, 220, 220, 0.472);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.3em;
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(6 4 82 / 79%);
 }
 
-.heading-container {
-    background-color: lightblue;
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(6 4 82 / 79%);
+}
+
+.active {
+    font-weight: bold;
+    color: rgb(6 4 82 / 90%) !important;
+}
+
+.home {
+    padding-right: 2rem;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.page-container {
+    width: 100%;
     display: flex;
     justify-content: center;
-    height: 150px;
-    align-items: center;
-    text-align: center;
-}
-
-h1 {
-    font-size: 3em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-p {
-    margin: 3em auto;
-}
-
-
-
-.button {
-    text-decoration: none;
-    color: black;
-    background-color:rgba(231, 154, 30, 0.692);
-    padding: 1em;
-    text-align: center;
-    border: .2em solid #5D6063;
-    width: 20%;
-    margin: 5% auto;
-}
-
-.link {
-    text-decoration: none;
 }
 
 .page {
     display: flex;
-    margin: auto;
+    width: 60%;
     justify-content: center;
-    flex-wrap: wrap;
-    text-align: center;
 }
 
-.section {
-    display: flex;
+.heading-container {
     width: 100%;
+    display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-a {
-    text-decoration: none;
+.home-pic {
+    width: 40%;
 }
 
-.color1 {
-    background-color: lightcoral;
-    height: 5em;
+.col-sm {
+    padding: 5px;
 }
 
-.color2 {
-    background-color: rgb(50, 53, 236);
-    height: 5em;
+.bread {
+    width: 100%;
+    height: 100%;
 }
 
-.color3 {
-    background-color: rgb(37, 207, 37);
-    height: 5em;
-}
-
-.color4 {
-    background-color: rgb(226, 230, 34);
-    height: 5em;
-}
-
-@media only screen and (min-width: 960px) {
-    .page {
-        width: 960px;
-    }
-    
-    .color1,
-    .color2,
-    .color3,
-    .color4 {
-        width: 50%;
-    }
+.photo-grid {
+    width: 75%;
 }
